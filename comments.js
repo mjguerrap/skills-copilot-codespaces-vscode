@@ -29,5 +29,5 @@ app.post('/comments', function(req, res) {
     res.render('pages/comments');
 });
 
-app.listen(8080);
-console.log('8080 is the magic port');
+app.listen(80);
+console.log('80 is the magic port');
